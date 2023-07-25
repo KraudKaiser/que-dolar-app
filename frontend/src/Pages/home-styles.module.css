@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #031927;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	height: 15em;
+	border-radius: 0 0 0.5em 0.5em;
+	justify-content: center;
+	align-items: center;
+	background: rgb(37,110,255);
+	background: linear-gradient(90deg, rgba(37,110,255,1) 0%, rgba(0,168,120,1) 76%);
+	color: #fefefe;
+}
+
+.centralBanner{
+	display: flex;
+	margin: 0.25em 1em 0.25em 1em;
+	height: 15em;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.oficial{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	border-radius: 1em;
+	justify-content: center;
+	align-items: center;
+	background: rgb(37,255,187);
+	background: linear-gradient(144deg, rgb(80, 212, 170) 26%, rgba(0,168,120,1) 79%);
+	color:white;
+}
+
+.blue{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	border-radius: 1em;
+	justify-content: center;
+	align-items: center;
+	background: rgb(37,110,255);
+	background: linear-gradient(144deg, rgba(37,110,255,1) 7%, rgba(21,46,228,1) 90%);
+	color:white;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-items: center;
+}
+
+.footer{
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 2em;
+	bottom: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: #031927;
+	color: white;
+	
+}
