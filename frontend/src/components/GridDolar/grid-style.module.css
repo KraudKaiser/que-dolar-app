@@ -1,0 +1,28 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	width: fit-content;
+	padding: 1em;
+	border-radius: 1em;
+	background-color:#fefefe ;
+	transition: transform 0.3s ease;
+}
+
+.container:hover{
+	transform: scale(1.05);
+}
+
+.container :hover{
+	cursor: pointer;
+}
+
+.additional-content{
+	max-height: 0;
+	display: none;
+}
+
+.additional-content.open{
+	display: flex;
+	max-height: 200px;
+}
